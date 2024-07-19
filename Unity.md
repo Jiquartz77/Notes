@@ -14,4 +14,8 @@ moveY = Input.GetAxisRaw("Vertical"); // vertical move
 - Interaction Mode 16ms;
 - Application.targetFrameRate = 60;
 10. Invoke("AttackEnd", AttackInterval);
+11. Start() vs Awake()
+12. Projetct Settings - Physics 2D - Collision Matrix
+13. AudioClip audioClip; AudioSource sous; sous.PlayShot(audioClip, SoundVolume);
+14. var & dynamic(Runtime) == auto type
 

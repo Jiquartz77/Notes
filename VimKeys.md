@@ -6,5 +6,5 @@
 6. cinoption
 7. yss, dsw, css //surround
 8. yw yaw yiw ye
-9. bye viwp //copy current word and paste to cover another word
-
+9. bye viwp 
+//copy current word and paste to cover another word
