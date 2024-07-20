@@ -7,4 +7,4 @@
 7. yss, dsw, css //surround
 8. yw yaw yiw ye
 9. bye viwp 
-//copy current word and paste to cover another word
+    - copy current word and paste to cover another word

@@ -7,15 +7,15 @@ moveY = Input.GetAxisRaw("Vertical"); // vertical move
 ![image here](.\images\unity_struct.jpeg "Title")
 
 5. #region A #endregion
-6. vim: zc zo 
 7. [Header("Examples")]
 8. Box collider encounters [Ghost Verticle](https://forum.unity.com/threads/solved-character-gets-stuck-in-floor.571909/)
 9. ### Frames
-- Interaction Mode 16ms;
-- Application.targetFrameRate = 60;
-10. Invoke("AttackEnd", AttackInterval);
-11. Start() vs Awake()
-12. Projetct Settings - Physics 2D - Collision Matrix
-13. AudioClip audioClip; AudioSource sous; sous.PlayShot(audioClip, SoundVolume);
-14. var & dynamic(Runtime) == auto type
+    - Interaction Mode 16ms;
+    - Application.targetFrameRate = 60;
+1. Invoke("AttackEnd", AttackInterval);
+1. Start() vs Awake()
+1. Projetct Settings - Physics 2D - Collision Matrix
+1. AudioClip audioClip; AudioSource sous; sous.PlayShot(audioClip, SoundVolume);
+1. var & dynamic(Runtime) == auto type
+1. i = int.Parse("123"); i = Convert.ToInt32("123");
 
