@@ -16,6 +16,4 @@ moveY = Input.GetAxisRaw("Vertical"); // vertical move
 1. Start() vs Awake()
 1. Projetct Settings - Physics 2D - Collision Matrix
 1. AudioClip audioClip; AudioSource sous; sous.PlayShot(audioClip, SoundVolume);
-1. var & dynamic(Runtime) == auto type
-1. i = int.Parse("123"); i = Convert.ToInt32("123");
 

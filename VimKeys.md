@@ -8,3 +8,4 @@
 8. yw yaw yiw ye
 9. bye viwp 
     - copy current word and paste to cover another word
+1. gh: hover
