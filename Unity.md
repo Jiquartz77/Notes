@@ -1,19 +1,28 @@
 1. Local & Global direction
 2. Debug.Log/LogWarning/LogError
-3.  moveY = CharacRigid.velocity.y; //vertical gravity;
-moveY = Input.GetAxisRaw("Vertical"); // vertical move
+3.  #### Move
+    1. `moveY = CharacRigid.velocity.y; //vertical stays; ` \
+       `moveY = Input.GetAxisRaw("Vertical"); // vertical move`
+    2. `Rigidbody rb = GetComponent<Rigidbody>();` \
+        `rb.transform.velocity = new Vector3(moveX, moveY, moveZ);`
+    3. `transform.Translate(translation, 0, 0);`
 
-4. 
+
+    
+
+1. 
 ![image here](.\images\unity_struct.jpeg "Title")
 
-5. #region A #endregion
-7. [Header("Examples")]
-8. Box collider encounters [Ghost Verticle](https://forum.unity.com/threads/solved-character-gets-stuck-in-floor.571909/)
-9. ### Frames
+1. #region A #endregion
+2. [Header("Examples")]
+3. Box collider encounters [Ghost Verticle](https://forum.unity.com/threads/solved-character-gets-stuck-in-floor.571909/)
+4. ### Frames
     - Interaction Mode 16ms;
     - Application.targetFrameRate = 60;
-1. Invoke("AttackEnd", AttackInterval);
-1. Start() vs Awake()
-1. Projetct Settings - Physics 2D - Collision Matrix
-1. AudioClip audioClip; AudioSource sous; sous.PlayShot(audioClip, SoundVolume);
-
+5. Invoke("AttackEnd", AttackInterval);
+6. Start() vs Awake()
+7. Projetct Settings - Physics 2D - Collision Matrix
+8. AudioClip audioClip; AudioSource sous; sous.PlayShot(audioClip, SoundVolume);
+9. Collision:
+   - >=2 colliders
+   - >=1 rigidbody

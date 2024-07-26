@@ -12,5 +12,10 @@
     - copy current word and paste to cover another word
 1. gh: hover
 1. @: - repeat the last commando
-1. di", da(, ci{
-1. d$, dtx
+1. di", da(, ci{ // delete words within quotes
+1. d$, dtx // delete till...
+
+# VSCODE: 
+1. ctrl + j: open terminal
+3. shift + alt + f // format
+3. shift + alt + a // comment multiple lines
