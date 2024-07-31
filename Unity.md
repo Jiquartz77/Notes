@@ -3,12 +3,7 @@
 3.  #### Move
     1. `moveY = CharacRigid.velocity.y; //vertical stays; ` \
        `moveY = Input.GetAxisRaw("Vertical"); // vertical move`
-    2. `Rigidbody rb = GetComponent<Rigidbody>();` \
-        `rb.transform.velocity = new Vector3(moveX, moveY, moveZ);`
     3. `transform.Translate(translation, 0, 0);`
-
-
-    
 
 1. 
 ![image here](.\images\unity_struct.jpeg "Title")
@@ -26,3 +21,6 @@
 9. Collision:
    - >=2 colliders
    - >=1 rigidbody
+1. Center vs Pivot; 
+1. Animation Sample rates too short: cause the animation repeat too fast.
+1. Dash should be separate from move.

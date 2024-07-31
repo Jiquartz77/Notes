@@ -12,3 +12,7 @@
 1. str = string.Format("{0} {1}", "foo", variable);
 1. /// <summary> message </summary>  : message shown when hovering over
 1. dotnet new console --framework net8.0 --use-program-main
+1. - int[,] =new int [3,3] // 2D array
+    - int [][] arr3= new int [3][]// 3D array
+1. extern != abstract // implemented externally vs must be implemented  by subclasses
+1. unsafe keyword // can use pointers *p 

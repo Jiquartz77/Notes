@@ -11,3 +11,6 @@
 2. Physics Material vs PM2D 
 - A: 3D vs 2D
 3. Serialized Varibles
+1. - transform.Translate( translation, 0, 0); // 平移 vs rolling 
+1. - CheckInput(): if (Input.GetButtonDown("Horizontal")) { Movement();}  // frame bug
+    - Movement(); CheckInput(); // Normal

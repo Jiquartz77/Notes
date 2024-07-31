@@ -8,14 +8,18 @@
 6. cinoption // indent style
 7. yss, dsw, css //surround
 8. yw yaw yiw ye //copy
+1. y% d% // copy&delete including ()
 9. bye viwp 
     - copy current word and paste to cover another word
 1. gh: hover
 1. @: - repeat the last commando
 1. di", da(, ci{ // delete words within quotes
-1. d$, dtx // delete till...
+1. D == d$, dtx // delete till...
+1. * // jump to the next reference
 
 # VSCODE: 
 1. ctrl + j: open terminal
 3. shift + alt + f // format
 3. shift + alt + a // comment multiple lines
+1. c+s + R // refractor: extract method
+1. Alt + ↓
