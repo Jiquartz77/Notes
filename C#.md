@@ -16,3 +16,4 @@
     - int [][] arr3= new int [3][]// 3D array
 1. extern != abstract // implemented externally vs must be implemented  by subclasses
 1. unsafe keyword // can use pointers *p 
+1. if (a < float.Epsilon && a > -float.Epsilon) // a == 0
