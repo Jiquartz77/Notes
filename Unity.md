@@ -24,3 +24,4 @@
 1. Center vs Pivot; 
 1. Animation Sample rates too short: cause the animation repeat too fast.
 1. Dash should be separate from move.
+1. base.Enter() first, last base.Exit()
