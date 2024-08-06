@@ -1,0 +1,8 @@
+parsers: # array
+    - url: https://hutaod.com/link/EGuHHSBeqWI2hHwn?clash=1
+      yaml:
+        prepend-rules:
+            - DOMAIN-SUFFIX,udemycdn.com,DIRECT
+            - DOMAIN-SUFFIX,udemy.com,DIRECT
+            - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+            - DOMAIN-SUFFIX,steamcdn.com,DIRECT
