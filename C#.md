@@ -17,3 +17,7 @@
 1. extern != abstract // implemented externally vs must be implemented  by subclasses
 1. unsafe keyword // can use pointers *p 
 1. if (a < float.Epsilon && a > -float.Epsilon) // a == 0
+1. - int/double/bool can't be null 
+    - (int? i =3) == (Nullable<int> i = new Nullable<int>(3))
+    - int i; //default: 0; int? ii; //default: null
+1. 

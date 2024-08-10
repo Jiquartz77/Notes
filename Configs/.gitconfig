@@ -1,0 +1,16 @@
+[core]
+	editor = \"D:\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[user]
+	name = Geo
+	email = qj2023@nyu.edu
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    
+    com = commit
+    cm = commit -m
+    cv = commit -v
+    ds = diff --staged
