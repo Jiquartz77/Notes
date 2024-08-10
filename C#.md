@@ -20,4 +20,4 @@
 1. - int/double/bool can't be null 
     - (int? i =3) == (Nullable<int> i = new Nullable<int>(3))
     - int i; //default: 0; int? ii; //default: null
-1. 
+1. 'struct' can have "fields, methods, properties, events, operator override, indexers"
