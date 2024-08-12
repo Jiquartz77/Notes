@@ -1,0 +1,17 @@
+{
+    "m_Id": "Default copy",
+    "m_ParentId": "",
+    "m_Entries": [
+        {
+            "identifier": {
+                "path": "Grid Painting/Move"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 120,
+                    "m_Modifiers": 0
+                }
+            ]
+        }
+    ]
+}

@@ -14,3 +14,4 @@
 1. - transform.Translate( translation, 0, 0); // 平移 vs rolling 
 1. - CheckInput(): if (Input.GetButtonDown("Horizontal")) { Movement();}  // frame bug
     - Movement(); CheckInput(); // Normal
+1. Background shakes when moving

@@ -6,3 +6,7 @@ parsers: # array
             - DOMAIN-SUFFIX,udemy.com,DIRECT
             - DOMAIN-SUFFIX,steamcontent.com,DIRECT
             - DOMAIN-SUFFIX,steamcdn.com,DIRECT
+            - DOMAIN,community.akamai.steamstatic.com,♻️ 自动选择
+            - DOMAIN-SUFFIX,steamstatic.com,DIRECT
+            - DOMAIN-SUFFIX,akamai.steamstatic.com,DIRECT
+            - DOMAIN,shared.akamai.steamstatic.com,DIRECT

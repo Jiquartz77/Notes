@@ -26,3 +26,4 @@
 1. Dash should be separate from move.
 1. base.Enter() first, last base.Exit()
 1. private Player player => GetComponentInParent<Player>();  // read only
+1. Tile Palette: shift + left click == eraser
