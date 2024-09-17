@@ -8,7 +8,8 @@ public:
             return -1;
         }
 
-        if (nums.empty()){
+        //if (nums.empty()){
+        if (nums == nullptr){
             return -1;
         }
 
