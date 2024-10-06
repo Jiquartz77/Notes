@@ -1,12 +1,18 @@
 parsers: # array
-    - url: https://hutaod.com/link/EGuHHSBeqWI2hHwn?clash=1
+    - url: https://www.ccsub.online/link/yvU2ESeXUQXrLf7z?clash=1
+    #- url: https://hutaod.com/link/EGuHHSBeqWI2hHwn?clash=1
       yaml:
         prepend-rules:
-            - DOMAIN-SUFFIX,udemycdn.com,DIRECT
-            - DOMAIN-SUFFIX,udemy.com,DIRECT
+            #- DOMAIN-SUFFIX,udemycdn.com,DIRECT
+            #- DOMAIN-SUFFIX,udemy.com,DIRECT
             - DOMAIN-SUFFIX,steamcontent.com,DIRECT
             - DOMAIN-SUFFIX,steamcdn.com,DIRECT
-            - DOMAIN,community.akamai.steamstatic.com,♻️ 自动选择
             - DOMAIN-SUFFIX,steamstatic.com,DIRECT
             - DOMAIN-SUFFIX,akamai.steamstatic.com,DIRECT
+            - DOMAIN-SUFFIX,steampowered.com,DIRECT
+            - DOMAIN-SUFFIX,akamaihd.net,DIRECT
             - DOMAIN,shared.akamai.steamstatic.com,DIRECT
+            - DOMAIN-KEYWORD,steampipe,DIRECT
+            #- DOMAIN,community.akamai.steamstatic.com,♻️ 自动选择
+            #- DOMAIN-SUFFIX,steamserver.net,DIRECT # store
+            #- DOMAIN, store.akamai.steamstatic.com, DIRECT 
