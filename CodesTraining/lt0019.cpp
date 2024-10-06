@@ -1,11 +1,26 @@
 #include "leetcode.h"
 using namespace std;
 
+class LinkNode{
+    public: int val; LinkNode* next;
+    LinkNode(int val): val(val), next(nullptr){}
+};
+
+class LinkList {
+public:
+    LinkList(){
+        _dummy = new LinkNode(0);
+        _size = 0;
+    }
+    private:
+    LinkNode* _dummy; int _size;
+};
+
 class Solution{
 public:
-    ListNode* removeNthFromEnd(ListNode* head, int n) {
-        ListNode *dummy = new ListNode(0);
-        ListNode* tmp, *fast, *slow;
+    LinkNode* removeNthFromEnd(LinkNode* head, int n) {
+        LinkNode *dummy = new LinkNode(0);
+        LinkNode* tmp, *fast, *slow;
 
         dummy->next=head;
         fast = slow = dummy;
@@ -24,7 +39,7 @@ public:
         slow->next=tmp->next;
         delete tmp;
 
-        return head;
+        return dummy->next;
     }
 };
 
