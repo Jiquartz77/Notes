@@ -12,10 +12,14 @@
 9. bye viwp 
     - copy current word and paste to cover another word
 1. gh: hover
+1. gd, gD: go to definition
 1. @: - repeat the last commando
 1. di", da(, ci{ // delete words within quotes
 1. D == d$, dtx // delete till...
 1. * // jump to the next reference
+1. ctags
+   1. ctrl + ] // jump to definition
+   1. ctrl + t // jump back
 
 # VSCODE: 
 1. ctrl + j: open terminal
