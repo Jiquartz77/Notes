@@ -21,3 +21,6 @@
     - (int? i =3) == (Nullable<int> i = new Nullable<int>(3))
     - int i; //default: 0; int? ii; //default: null
 1. 'struct' can have "fields, methods, properties, events, operator override, indexers"
+1. virtual method: most-derived class
+   1.  Java: default is virtual, final is not;
+   1. C#: virtual, override;
