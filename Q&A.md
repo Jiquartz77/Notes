@@ -15,3 +15,4 @@
 1. - CheckInput(): if (Input.GetButtonDown("Horizontal")) { Movement();}  // frame bug
     - Movement(); CheckInput(); // Normal
 1. Background shakes when moving
+1. render mode: wolrd space, screen space 
