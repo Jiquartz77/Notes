@@ -6,7 +6,7 @@
     - var hexLiteral = 0x2A;
     - var binaryLiteral = 0b_0010_1010; // binary
 1. - (ref int a, ref int b)
-    - (out int a) // used for Input values by users;
+    - (out int a) // used for Input values by users; //initialization not needed
     - Console.WriteLine("The num is {0}", a);
 1. foreach (var item in list))
 1. str = string.Format("{0} {1}", "foo", variable);
@@ -24,3 +24,4 @@
 1. virtual method: most-derived class
    1.  Java: default is virtual, final is not;
    1. C#: virtual, override;
+1. OnValidate() // sync inspector
