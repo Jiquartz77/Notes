@@ -14,6 +14,7 @@
 4. ### Frames
     - Interaction Mode 16ms;
     - Application.targetFrameRate = 60;
+
 5. Invoke("AttackEnd", AttackInterval);
 6. Start() vs Awake()
 7. Projetct Settings - Physics 2D - Collision Matrix

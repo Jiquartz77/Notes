@@ -1,3 +1,5 @@
+1. string == String; better use string;
+1. string.IsNullOrEmpty(string str);
 1. var & dynamic(Runtime) == auto type
 1. i = int.Parse("123"); i = Convert.ToInt32("123");
 1. @"foo\bar" == "foo\\bar"
@@ -24,4 +26,7 @@
 1. virtual method: most-derived class
    1.  Java: default is virtual, final is not;
    1. C#: virtual, override;
-1. OnValidate() // sync inspector
+   1. new: hide; override: overwrite;
+1. OnValidate() // sync inspector 方法不会在游戏运行时调用，它仅在编辑器中有效。
+1. 匿名delegate有内存泄露的风险
+1. override 只能在继承基类时用，不能在实现接口时用
