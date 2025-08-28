@@ -29,3 +29,4 @@
 1. private Player player => GetComponentInParent<Player>();  // read only
 1. Tile Palette: shift + left click == eraser
 1. NotImplementedException()
+1. duplicate scripts will stop "Don't destroy on load"
