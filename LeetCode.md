@@ -31,3 +31,13 @@ for (int l = 0, r = 0 ; r < n ; r++) {
     //区间[left,right]符合题意，统计相关信息
 }
 ```
+4. 二叉树的最大深度==根节点的高度
+深度：
+高度：
+根节点高度：
+
+5. 求深度：前序； 高度：后序
+前序： void getDepth(int &ans, int depth)
+getDepth(ans, depth+1);
+
+后序：int getDepth(TreeNode*);
