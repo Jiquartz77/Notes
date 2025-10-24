@@ -30,3 +30,6 @@
 1. OnValidate() // sync inspector 方法不会在游戏运行时调用，它仅在编辑器中有效。
 1. 匿名delegate有内存泄露的风险
 1. override 只能在继承基类时用，不能在实现接口时用
+1. List底层实现 _defaultCapacity 为4。扩充路线(翻倍): 4，8，16，32，64
+1. 提前设置list 最大容量
+2. foreach 会new 迭代器, 额外GC

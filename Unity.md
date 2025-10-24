@@ -30,3 +30,5 @@
 1. Tile Palette: shift + left click == eraser
 1. NotImplementedException()
 1. duplicate scripts will stop "Don't destroy on load"
+1. What is AI navigation?
+1. 单例、观察者、工厂、命令
